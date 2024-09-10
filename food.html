@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        .card {
+            margin: 20px;
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-deck {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .food-curosel img{
+            object-fit: fill;
+            width: 500px;
+            height: 580px;
+        }
+        .card-img-top{
+            height: 330px;
+            width: 330px;
+        }
+        .card1{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .card-body{
+            background-image: linear-gradient(rgb(102, 174, 216),white);
+        }
+        footer {
+    padding: 20px;
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+    </style>
+</head>
+<body style="background-image: url(bgfood.jpg);">
+    <header>
+        <div class="head text-center py-2" style="background-color: rgb(59, 59, 185);color: aliceblue;">
+            <p >House Of Exclusive Indian Sweets & Snacks | High Class Indian Vegetarian Restaurant</p>
+        </div>
+        <nav class="navbar navbar-expand-lg" style="background-color: #dbd821;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="veg1.png" alt="Restaurant Logo" width="" height="70" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="food.html">Food</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="snack.html">Snacks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="food-curosel">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="curosel1.jpg" class="d-block w-100" alt="Delicious dosa served on a plate">
+                </div>
+                <div class="carousel-item">
+                    <img src="curosel2.jpeg" class="d-block w-100" alt="Lunch spread with various dishes">
+                </div>
+                <div class="carousel-item">
+                    <img src="curosel3.jpg" class="d-block w-100" alt="Dinner table set with multiple dishes">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev" aria-label="Previous slide">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next" aria-label="Next slide">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="card-deck" >
+            <h3>Today Special!</h3>
+            <div class="card1">
+                
+            <div class="card">
+                <img src="item1.png" class="card-img-top" alt="Food Item 1">
+                <div class="card-body">
+                    <h5 class="card-title">Idly</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="item2.jpeg" class="card-img-top" alt="Food Item 2">
+                <div class="card-body">
+                    <h5 class="card-title">Pongal</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="item3.jpg" class="card-img-top" alt="Food Item 3">
+                <div class="card-body">
+                    <h5 class="card-title">Dosa</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            </div>
+            
+            <div class="card1">
+            <div class="card">
+                <img src="item4.jpg" class="card-img-top" alt="Food Item 4">
+                <div class="card-body">
+                    <h5 class="card-title">Veg Kothu Parotta</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="item5.avif" class="card-img-top" alt="Food Item 5">
+                <div class="card-body">
+                    <h5 class="card-title">Meals</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="item9.jpg" class="card-img-top" alt="Food Item 6">
+                <div class="card-body">
+                    <h5 class="card-title">Veg Rice</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            </div>
+            
+            <div class="card1">
+                
+            <div class="card">
+                <img src="item7.webp" class="card-img-top" alt="Food Item 7">
+                <div class="card-body">
+                    <h5 class="card-title">Mushroom Gravy</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="item8.jpg" class="card-img-top" alt="Food Item 8">
+                <div class="card-body">
+                    <h5 class="card-title">Panner Gravy</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="item6.jpg" class="card-img-top" alt="Food Item 8">
+                <div class="card-body">
+                    <h5 class="card-title">Chapathi</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">1234 Sweet Lane, Flavor Town,Chennai-02</p>
+            <p class="mb-0">Phone: (123) 456-7890 | Email: veggie@restaurant.com</p>
+            <p class="mb-0">© 2024 House of Exclusive Indian Sweets & Snacks. All rights reserved.</p>
+            <a href="#" class="text-white">Privacy Policy</a> | <a href="#" class="text-white">Terms of Service</a>
+        </div>
+    </footer>
+</body>
+</html>
